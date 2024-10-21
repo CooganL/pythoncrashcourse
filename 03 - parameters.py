@@ -17,7 +17,7 @@ def hello(name):
 
 # An argument is the value that is sent to the function when you call it.
 
-hello("Dan")
+hello("Dan","Sarah")
 
 # in this case, the argument is "Dan"
 
@@ -27,6 +27,9 @@ hello("Dan")
 
 # BREAK IT:
 # What happens if you remove the name entirely and try to call hello() without anything inside?
+#The terminal says its missing one required positional argument 'name'
 # What happens if you put multiple arguments in, like hello("Dan","Sarah")?
+#The error says 2 arguments were given but hello() only takes one
 # Why did the errors occur?
+#Because the print requires 1 argument to run, 0 or 2 arguments is either too little or not enough
 
